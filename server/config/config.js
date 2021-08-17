@@ -34,3 +34,8 @@ if(process.env.NODE_ENV ==='dev'){
     urlDB = 'mongodb+srv://admin:<admin>@cafe.mpwo1.mongodb.net/cafe?retryWrites=true&w=majority'
 }
 process.env.urlDB = urlDB;
+
+//=========================
+//google client id
+//=========================
+process.env.CLIENT_ID = process.env.CLIENT_ID || '552018051544-9cndfhmo0d5n9ns2kavtplhhc2odjcdc.apps.googleusercontent.com'
